@@ -70,7 +70,7 @@ function takeOrder(data){
     const promise=new Promise((resolve)=>{
            setTimeout(()=>{
             resolve(data)
-           },7000)  
+           },10000)  
     })
 
     function finalorder(data){
